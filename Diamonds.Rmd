@@ -1,0 +1,42 @@
+---
+title: "Diamond App"
+author: "Yvette Winton"
+date: "November 17, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Diamond App
+
+This presentation is part of the Coursera Developing Data Products Assignment. This assignment includes writing a shiny application with associated supporting documentation, deploying the application on Rstudio's shiny server, 5 slides to pitch the app.
+
+## Motivation of Diamond App
+Buying a diamond is a big investment. Whether diamonds are worth the money is really questionable, but diamond rings remain a popular choice for engagement rings.  This app will help you project the cost of a round diamond by inputting various qualities of the diamond.
+
+
+## Dataset
+
+Diamond App https://ywpublic.shinyapps.io/diamondapp/ is trained with a built in R diamonds dataset. A subset of variables is trained for the prediction of diamond cost.  This subset of variables is:
+
+- Carat
+- Cut 
+- Color 
+- Clarity 
+
+User has to input the above variables to project the cost of a round diamond. Documention of App in https://ywpublic.shinyapps.io/diamondappdocumention/
+
+## Useful Advice for Engagement Rings
+Q: How much should I spend? 
+
+A: What you could comfortably afford but what your fiancee would love.  Remember, if she is not happy about her engagement ring, she might want another one on that 5th or 10th Anniversary. It is always smart to get it over with.
+
+Q: How do I compromise between carat size and the quality of the diamond? 
+
+A: Unless your finacee has Xray or microscopic vision, bigger carat size is always worth your money.
+
+Q: Are colorless diamonds really worth the money? 
+
+A: Unelss you are mounting your diamond in white gold or platinum, no.  You cannot tell higher color in yellow or rose gold.
